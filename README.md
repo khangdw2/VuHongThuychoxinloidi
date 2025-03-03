@@ -29,6 +29,12 @@
         }
         .buttons {
             margin-top: 20px;
+            padding: 20px;
+            display: inline-block;
+            background: url('![image](https://github.com/user-attachments/assets/225c815f-a198-47b7-8896-0c8c779ddbe6)
+') no-repeat center center;
+            background-size: cover;
+            border-radius: 10px;
         }
         .buttons button {
             padding: 12px 22px;
@@ -67,7 +73,7 @@
         <div class="buttons">
             <button onclick="showMessage()">Dạ</button>
             <button onclick="alert('Vậy anh sẽ đợi đến khi em đồng ý! 😢')">CC</button>
-           </div>
+        </div>
     </div>
     
     <div id="message-container" class="container">
@@ -102,5 +108,3 @@
     </script>
 </body>
 </html>
-
-![image](https://github.com/user-attachments/assets/83c83c49-4cd8-47ca-89bf-80c99ef7c087)
